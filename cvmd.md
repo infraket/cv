@@ -52,6 +52,7 @@ else:
 * Stepik
     + [SQL Stepik](https://stepik.org/cert/1091000 "Stepik")
     + [Python Stepik](https://stepik.org/cert/1350178 "Stepik")
+   
 ## **Languages:**
 *********
 * Russian 
