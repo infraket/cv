@@ -2,8 +2,6 @@
 *********
 ## **Contact information:**
 *********
-**Phone:** +7 965 454 46 41
-
 **E-mail:** aveacvale@mail.ru
 
 **Telegram:** @infraket
