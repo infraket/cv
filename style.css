@@ -1,7 +1,13 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { 
+  display: block;
+}
+
 .center {
 text-align: center;
 }
 .body{
+  
+  
     font-family: 'Roboto', sans-serif;
     border: 1px solid red;
     min-height: 100vh;
@@ -37,8 +43,9 @@ text-align: center;
     
   }
 .container {
+    
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 2em auto 2em ;
     background-color:rgb(3, 6, 17);
   }
   html {
@@ -95,8 +102,9 @@ text-align: center;
   color:lightblue;
 }
 .section{
+  padding: 10px 30px;
   line-height:2;
-  width: 50%;
+  width: 45%;
   background-color:rgb(3, 6, 17);
   color:rgb(192, 233, 247);
   font-family: 'Roboto', serif;
@@ -132,71 +140,37 @@ text-align: center;
 
 @media (max-width: 768px) {
   .section {
-    width: 100%;
+    width: 90%;
   }
+  .header {
+    align-items: auto;
+ }
+ 
 }
+@media screen and (max-width: 980px){
+  
+  #section{
+      width: 60%;
+      padding: 3% 4%;
+      text-align: center;
+
+  }
+  
+}
+
 /* * {
     box-sizing: border-box;
     background-color: rgb(3, 6, 17);
     color:#fff;
     font-family: 'Roboto', sans-serif;
   } */
+
  .section-code{
   line-height: 1;
  }
  
-  
-
-.contact-links__item {
-  display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute; 
-    animation: float 2s ease-in-out infinite alternate;
-    
-    
-}
-.contact-links__item.github {
-  top: calc(60% - 20rem);
-  left: 20rem;
-  animation-delay: 0.5s;
-}
-.github .contact-links__link {
-  border-radius: 50%;
-  border-color:#141333;
-  transform: translateX(50%) translateY(-50%);
-}
-
- .contact-links__link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 10px solid;
-  border-radius: 40%;
-  transition: transform 0.3s ease-in-out;
-  border-width: 20px;
-  transition: border 0.3s ease-in-out;
-  
-  
-}
-.contact-links {
-  display: flex;
-  flex-direction: row;
-  gap: 32px;;
-  
-  
-  /* 32px; */
-  margin-bottom: 16px;
-}
-.contact-links__link:hover {
-  
-  transform: scale(1.25); 
-  transition: transform 0.3s ease-in-out; 
-  border-width: 30px;
-  /* transition: border 0.3s ease-in-out; */
-}
  .footer{
-  /* padding: 0 20px; */
+  padding: 0 20px;
   line-height: 50px;
   background-color: rgb(3, 6, 17);
   font-family: 'Roboto', sans-serif;
